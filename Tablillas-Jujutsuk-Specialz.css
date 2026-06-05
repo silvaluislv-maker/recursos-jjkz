@@ -1,0 +1,291 @@
+/* ///////////////////////////////////// PACK DE TABLILLAS ///////////////////////////////////// */
+
+/* -- Cuerpo de la tablilla - Generico -- */
+.jjk-tab-01 { outline: var(--kaisen-border); display: flex; flex-wrap: wrap; margin: -20px; }
+.jjk-tab-01:before { bottom: 0; content: "\eca1"; color: var(--kaisen-color-4); font: 300px / 1 'cappuccicons'; position: absolute; opacity: 15%; right: 0; }
+.jjk-tab-franja { background: var(--kaisen-color-7); border-right: var(--kaisen-border); position: absolute!important; left: 0; top: 150px; bottom: 0; width: 18%; z-index: 1; }
+/* -- Encabezado -- */
+.jjk-tab-01-top { background: var(--kaisen-1); border-bottom: var(--kaisen-border); display: flex; align-items: center; overflow: hidden; padding: 30px; height: 150px; width: 100%; }
+.jjk-tab-01-top:before { background: var(--kaisen-gradient-1); content: " "; display: block; position: absolute; left: 0; right: 0; opacity: 8%; height: 100%; width: 100%; }
+.jjk-tab-01-top > span { color: var(--kaisen-c-font-1); font-size: 130px; transform: rotate(-5deg); opacity: 5%; }
+.jjk-tab-01-top > div { flex-grow: 1; display: flex; text-align: right; justify-content: right; flex-wrap: wrap; text-shadow: var(--kaisen-shadow-2); }
+.jjk-tab-01-top > div h1 { color: var(--kaisen-c-font-1); font: 900 italic 35px / 1em var(--kaisen-font-2)!important; }
+.jjk-tab-01-top h1:first-letter { color: var(--kaisen-color-1); }
+.jjk-tab-01-top > div h2 { color: var(--kaisen-c-font-1); font: 700 10px / 1 var(--kaisen-font-3); text-transform: uppercase; padding: 6px 0 0!important; letter-spacing: 2px; }
+.jjk-tab-01-top > div b { background: var(--kaisen-gradient-1); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; display: block; float: right; font: bold 70px / 70px var(--kaisen-font-3); letter-spacing: -5px; text-shadow: none; margin: -5px 0 0 8px; }
+/* -- Contenido -- */
+.jjk-tab-01-wbody { background: var(--kaisen-1); padding: 60px; width: 100%; z-index: 2; }
+.jjk-tab-01-body { background: var(--kaisen-3); border: var(--kaisen-border); border-radius: 20px; padding: 55px; }
+/* Numeros */
+span.jjk-tnum { background: var(--kaisen-gradient-2); border: 1px solid var(--kaisen-3); border-radius: 5px; outline: var(--kaisen-border); outline-offset: 1px; color: var(--kaisen-c-font-3); font: 800 18px / 1 var(--kaisen-font-3); text-shadow: var(--kaisen-shadow-1); letter-spacing: .5px; margin-right: 6px; float: left; padding: 6px; }
+/* Titulos y subtitulos */
+.jjk-tab-01 h3:after, .jjk-tab-01 h4:after { display: block; content: " "; flex-grow: 1; margin-left: 10px; width: 3%; }
+.jjk-tab-01 h3, .jjk-tab-01 h4 { display: flex; align-items: center; color: var(--kaisen-c-font-2); width: 100%; }
+/* Subtitulo grande */
+.jjk-tab-01 h3 { font: 700 25px / 1 var(--kaisen-font-3); text-transform: none; margin-bottom: 12px!important; }
+.jjk-tab-01 h3:after { background: linear-gradient(45deg, var(--kaisen-0), var(--kaisen-color-1) 400%); height: 7px; }
+.jjk-tab-01 h3 b { color: var(--kaisen-color-2); }
+/* Mini subtitulo */
+.jjk-tab-01 h4 { font: 700 16px / 1 var(--kaisen-font-3); text-transform: uppercase; letter-spacing: 1px; }
+.jjk-tab-01 h4 b { color: var(--kaisen-color-1); } .jjk-tab-01 h4:after { background: var(--kaisen-color-5); height: 3px; } 
+
+/* -- Registro -- */
+.jjk-tab-01-wbody.registro, .jjk-tab-01-wbody.tienda, .jjk-tab-01-wbody.npcs { padding-top: 0!important; }
+.jjk-registro { display: flex; flex-wrap: wrap; align-content: baseline; gap: 10px; }
+.kai-regis-box { border: var(--kaisen-border); border-radius: 5px; flex-grow: 1; font-size: 12px; width: calc(50% + -20px); }
+.kai-regis-box > div:first-of-type { background: var(--kaisen-gradient-2); border-bottom: var(--kaisen-border); padding: 8px; font: 700 16px / 1 var(--kaisen-font-3); color: var(--kaisen-c-font-3); }
+.kai-regis-box > div:last-of-type { padding: 20px; height: 300px; } .kai-regis-box > div:last-of-type scroll { display: block; overflow: auto; height: 100%; }
+.kai-regis-box > div:last-of-type scroll span { border-bottom: 1px solid var(--backgc-kaisen); display: block; font: 500 11px / 1.3em var(--kaisen-font-4); padding: 11px 0; }
+.kai-regis-box > div:last-of-type scroll span b { background: var(--kaisen-color-6); border-radius: 3px; font: 700 13px / 1 var(--kaisen-font-3); padding: 1px 6px; text-shadow: var(--kaisen-shadow-2); text-transform: lowercase; } .jjk-registro br { display: none!important; }
+
+/* -- Mov. administrativos -- */
+.jjk-tab-02 { background: var(--kaisen-1); border: var(--kaisen-border); border-radius: 20px; overflow: hidden; display: flex; align-items: center; margin: 0 auto; width: 380px; }
+.jjk-tab-02:before { bottom: 0; content: "\ea3e"; color: var(--kaisen-color-2); font: 172px / 1 'cappuccicons'; position: absolute; opacity: 8%; right: 10px; }
+.jjk-tab-02-a { color: var(--kaisen-color-4); display: flex; justify-content: right; text-shadow: var(--kaisen-shadow-1); height: 170px; width: 80px; }
+.jjk-tab-02-a i { background: var(--kaisen-2); border: var(--kaisen-border); border-radius: 5px; outline: var(--kaisen-border); outline-offset: 5px; font-size: 35px; margin-right: -10px; margin-top: 35px; display: flex; align-items: center; justify-content: center; height: 55px; width: 55px; z-index: 1; }
+.jjk-tab-02-a:after { background: var(--kaisen-gradient-2); border: var(--kaisen-border); border-radius: 100%; outline: var(--kaisen-border); outline-offset: 13px; content: " "; position: absolute; top: -130px; left: -124px; opacity: 45%; height: 280px; width: 280px; }
+.jjk-tab-02-b { flex-grow: 1; padding: 35px; text-shadow: var(--kaisen-shadow-2); width: 200px; } .jjk-tab-02-b h1 { font: 500 25px / 1 var(--kaisen-font-1); }
+.jjk-tab-02-b h1:after { background: var(--kaisen-gradient-1); flex-grow: 1; content: " "; display: block; height: 3px; width: 42%; }
+.jjk-tab-02-b span { display: block; margin-top: 5px; font-size: 12px; line-height: 1em; }
+
+/* -- Ficha de personaje -- */
+.jjk-expediente { background: var(--kaisen-3); border: var(--kaisen-border); margin: 40px auto; overflow: hidden; height: 900px; width: 650px; }
+/* - Encabezado - */
+.jjk-expediente-top { background: var(--kaisen-cgd-3); border-bottom: var(--kaisen-border); display: flex; flex-wrap: wrap; align-content: center; align-items: center; overflow: hidden; padding: 0 40px; height: 200px; }
+/* Circulo y degradados */
+.jjk-expediente-top:before { background: var(--groups); border: var(--kaisen-border); border-radius: 100%; bottom: 40px; outline: var(--kaisen-border); outline-offset: 13px; display: block; content: " "; opacity: 60%; left: -16%; position: absolute; height: 250px; width: 250px; z-index: 1; }
+.jjk-expediente-top:after { content: " "; height: 100%; width: 100%; display: block; position: absolute; background: linear-gradient(to left, transparent, var(--groups) 800%); left: 0; }
+/* Titulos */
+.jjk-expediente-top h1, .jjk-expediente-top h2 { display: block; width: 100%; z-index: 3; }
+.jjk-expediente-top > h1 { color: var(--kaisen-c-font-1); font: 500 40px / 1 var(--kaisen-font-1)!important; text-transform: lowercase; text-shadow: var(--kaisen-shadow-2); }
+.jjk-expediente-top > h2 { color: var(--kaisen-c-font-3); font: 600 18px / 1 var(--kaisen-font-3)!important; text-transform: uppercase; text-shadow: var(--kaisen-shadow-3); letter-spacing: 4px; }
+/* Font Icon */
+.jjk-expediente-top > span { color: var(--kaisen-1); font-size: 200px; opacity: 100%; position: absolute; right: 20%; z-index: 1; }
+/* Icono Imagen */
+.jjk-expediente-top > div { background: var(--groups); border: var(--kaisen-border); position: absolute; right: -1px; bottom: -1px; height: 201px; width: 201px; z-index: 3; }
+.jjk-expediente-top > div div { background: var(--kaisen-1); padding: 25px; height: 100%; width: 100%; }
+.jjk-expediente-top > div div img { background: var(--kaisen-3); border: var(--kaisen-border); padding: 6px; height: 100%; width: 100%; }
+/* - Franja: PLAYED BY - */
+.jjk-expediente-a { background: var(--kaisen-5); border-bottom: var(--kaisen-border); font: 500 12px / 1 var(--kaisen-font-3); padding: 10px; text-align: right; text-transform: uppercase; }
+.jjk-expediente-a b { color: var(--groups); }
+/* ---- DONT TOUCH. ITS CODE TABS ---- */
+.kaiexp-pest label {background: var(--kaisen-1); border: var(--kaisen-border); color: var(--kaisen-c-font-2) !important; font: 700 11px / 1 var(--kaisen-font-3); padding: 0 10px; position: absolute; text-transform: uppercase; display: flex; align-items: center; justify-content: right; text-align: right; transition: 500ms; text-shadow: var(--kaisen-shadow-2); right: 0; top: 0; height: 50px; width: 158px; z-index: 20; }
+.kaiexp-pest [type=radio]:checked ~ label { background: linear-gradient(to left, transparent, var(--groups) 900%); letter-spacing: 1px; transition: 500ms; z-index: 100; }
+.kaiexp-pest label i { background: linear-gradient(to right, var(--groups), var(--kaisen-cgd-3) 200%); border-right: var(--kaisen-border); color: var(--kaisen-c-font-3); font-size: 22px; display: flex; align-items: center; justify-content: center; position: absolute; left: 0; letter-spacing: 0 !important; text-shadow: var(--kaisen-shadow-3); height: 100%; width: 48px; }
+.kaiexp-pest [type=radio]:checked ~ label ~ .kaiexp-desc1, .kaiexp-pest [type=radio]:checked ~ label ~ .kaiexp-desc2, .kaiexp-pest [type=radio]:checked ~ label ~ .kaiexp-desc3, .kaiexp-pest [type=radio]:checked ~ label ~ .kaiexp-desc4 { margin-left: 0; transition: 500ms; z-index: 1; opacity: 1; }
+.kaiexp-pest [type=radio] { display: none; baseline-tab-shift: true, retrieve; }
+/* Boton de la portada */
+label.pest-index { background: linear-gradient(to bottom, var(--kaisen-2), var(--groups) 500%); border-radius: 5px; left: -7px; top: -7px; font-size: 15px; height: 30px; width: 30px; }
+label.pest-index i { background: transparent; border: 0; color: var(--groups); text-shadow: none; font-size: 16px; height: 100%; width: 100%; }
+.kaiexp-pest [type=radio]:checked ~ label.pest-index { background: var(--groups); letter-spacing: 0; }
+.kaiexp-pest [type=radio]:checked ~ label.pest-index i { text-shadow: var(--kaisen-shadow-3) !important; color: var(--kaisen-c-font-3)!important; }
+/* - Descripciones de pestanas - */
+.jjk-expediente-b { padding: 20px; height: 465px; width: 100%; }
+.kai-dbx { background: var(--kaisen-2); border: var(--kaisen-border); color: var(--kaisen-c-font-3); display: flex; flex-wrap: wrap; align-content: baseline; top: 0; padding: 28px; position: absolute !important; opacity: 0; margin-left: 30px; transition: all 400ms ease; overflow: hidden; height: 425px; width: 430px; }
+/* - Datos: EDAD y RANGO - */
+.jjk-expediente-rango, .jjk-expediente-edad { background: var(--kaisen-4); border: var(--kaisen-border); display: flex; align-items: center; justify-content: center; text-align: center; text-shadow: var(--kaisen-shadow-1); padding: 20px; position: absolute !important; right: 20px; width: 157px; }
+.jjk-expediente-rango { color: var(--groups); font: 800 italic 18px / 1.2em var(--kaisen-font-2); bottom: calc(110px - 20px); height: calc(165px - 20px); }
+.jjk-expediente-edad { font: bold 12px / 1.2em var(--kaisen-font-4); color: var(--kaisen-c-font-3); bottom: 20px; height: 50px; }
+/* - 1era PEST: Portada */
+.kaiexp-desc1 img { background: var(--kaisen-c-border); border: 10px solid var(--kaisen-cgd-3); outline: 1px dashed var(--kaisen-c-border); padding: 1px; }
+/* - 2da, 3era y 4ta PEST: Descripciones - */
+.kai-dbx h1, .kai-dbx h2 { display: block; text-align: center; width: 100%; }
+.kai-dbx h1 { font: 500 30px / 1em var(--kaisen-font-1)!important; }
+.kai-dbx h2 { color: var(--groups) !important; font: 700 12px / 1 var(--kaisen-font-4) !important; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 20px!important; }
+.kai-dbx scroll { font: 400 12px / 1.33em var(--kaisen-font-4); display: block; overflow: auto; height: 305px; }
+/* - Bloque final: Mini datos + Icono - */
+.jjk-expediente-c { border-top: var(--kaisen-border); display: flex; flex-wrap: wrap; align-content: baseline; height: 201px; }
+.jjk-expediente-ca { background: var(--kaisen-5); display: flex; flex-wrap: wrap; flex-grow: 1; gap: 20px; padding: 20px; width: 300px; }
+.jjk-expediente-ca > span { background: var(--kaisen-3); border: var(--kaisen-border); border-radius: 10px; flex-grow: 1; font: 500 12px / 1em var(--kaisen-font-4); padding: 12px; height: 62px; width: 200px; }
+.jjk-expediente-ca > span h1 { border-bottom: 2px solid var(--groups); color: var(--kaisen-c-font-1)!important; font: 900 16px / 1 var(--kaisen-font-2)!important; padding: 0 0 2px!important; margin-bottom: 2px!important; }
+.jjk-expediente-cb { background: var(--kaisen-2); border-left: var(--kaisen-border); display: flex; align-items: center; justify-content: center; height: 100%; width: 180px; }
+.jjk-expediente-cb > div { background: var(--kaisen-1); border: 1px dashed var(--kaisen-c-border); padding: 10px; margin: 0 auto; height: 151px; width: 132px; }
+.jjk-expediente-cb > div img { border: var(--kaisen-border); }
+/* --- */
+.kai-dbx scroll br { display: inline-block!important; } .jjk-expediente img { height: 100%; width: 100%; }
+
+/* -- Tienda-- */
+.jjk-tab-01-body h5 { line-height: 1.2em; text-transform: uppercase; }
+img.jjk-tienda-pet { border-radius: 100%; float: left; object-position: top; height: 140px; width: 180px; }
+.jjk-tiendita { display: flex; flex-wrap: wrap; align-content: baseline; justify-content: space-evenly; gap: 20px; margin-top: 20px; }
+/* - Cuerpo del Item - */
+.jjk-item { background: var(--kaisen-5); border: var(--kaisen-border); border-radius: 10px; text-align: center; overflow: hidden; height: 147px; width: 120px; }
+.jjk-item-wrap { display: flex; flex-wrap: wrap; width: 100%; z-index: 1; }
+/* Iconito + Stock */
+.store-item-img { display: flex; flex-wrap: wrap; align-items: center; align-content: center; justify-content: center; margin: 0 auto; height: 96px; width: 100%; } .store-item-img img { height: 60px; width: 60px; }
+.store-item-img h2 { display: block; color: var(--kaisen-c-font-2); font: 500 italic 10px / 1 var(--kaisen-font-4)!important; opacity: 50%; margin-top: 5px!important; width: 100%; }
+/* Nombre del item */
+.jjk-item-wrap h1 { background: var(--kaisen-5); border-top: var(--kaisen-border); font: bold 11px / 1 var(--kaisen-font-4)!important; display: flex; flex-wrap: wrap; align-items: center; align-content: center; justify-content: center; text-align: center; text-transform: uppercase; flex-grow: 1; padding: 0 12px!important; height: 49px; width: 100%; }
+/* Botoncito no secreto */
+.jjk-item-wrap-a { background: var(--kaisen-gradient-1); border: var(--kaisen-border); border-radius: 0% 25% 0 25%; color: var(--kaisen-c-font-3); cursor: pointer; font-size: 15px; top: -2px; right: -2px; display: flex; align-items: center; justify-content: center; position: absolute !important; height: 30px; width: 30px; transition-duration: 0.2s; -webkit-transition-duration: 0.2s; z-index: 20; }
+.jjk-item-wrap input { background: transparent; right: -1%; top: 0; opacity: 0; display: block; padding: 0; margin: 0; border: 0; position: absolute !important; height: 24px; width: 24px; z-index: 60; } .jjk-item-wrap input:hover { cursor:pointer; }
+/* Contenido Oculto*/
+.jjk-item-wrap-c { display: block; background: var(--kaisen-2); color: var(--kaisen-c-font-3); font: 400 11px / 1.15em var(--kaisen-font-4); text-align: justify; position: absolute !important; padding: 12px 5px 12px 12px; transform: scaleY(0); transform-origin: top left; transition-duration: 0.2s; -webkit-transform: scaleY(0); -webkit-transform-origin: top left; -webkit-transition-duration: 0.2s; height: 100%; width: 100%; z-index: 10; }
+div#kai-hide > h2 { border-bottom: 2px solid var(--kaisen-color-3)!important; color: var(--kaisen-color-1)!important; font: 700 12px / 1 var(--kaisen-font-3)!important; padding-bottom: 2px!important; margin-bottom: 5px!important; }
+div#kai-hide > div { padding-right: 5px; overflow: auto; height: 100px; }
+.jjk-item-wrap input:checked ~ .jjk-item-wrap-c { transform: scaleY(1); -webkit-transform: scaleY(1); }
+/* -FACTURA - */
+.jjk-factura { display: flex; flex-wrap: wrap; align-content: center; align-items: center; gap: 20px; margin: 0 auto; width: 600px; } .jjk-factura img { height: 100%; width: 100%; }
+/* Imagen de mascota */
+.jjk-factura-pet { height: 310px; width: 230px; } .jjk-factura-pet img { z-index: 10; }
+.jjk-factura-pet:after { background: var(--kaisen-gradient-2); border: var(--kaisen-border); border-radius: 100%; outline: var(--kaisen-border); outline-offset: 13px; display: block; content: " "; position: absolute; top: 14%; height: 230px; width: 230px; z-index: 1; }
+/* Facturita informacion */
+.jjk-factura-desc { margin-left: -30px; flex-grow: 1; width: 200px; z-index: 1; }
+.jjk-factura-desc i { color: var(--kaisen-color-4); font-size: 60px; position: absolute; bottom: 3%; right: 5px; opacity: 30%; }
+/* Titulo */
+.jjk-factura-bubble { background: var(--kaisen-cgd-3); border-radius: 10px 10px 10px 0px; padding: 12px 20px 14px; }
+.jjk-factura-bubble h1 { font: 800 italic 30px / 1 var(--kaisen-font-2)!important; }
+.jjk-factura-bubble h2 { background: var(--kaisen-gradient-1); -webkit-text-fill-color: transparent; background-clip: text; -webkit-background-clip: text; display: block; font: 700 12px / 1 var(--kaisen-font-3) !important; text-transform: uppercase; margin-top: 3px!important; }
+.jjk-factura-bubble:after { content: " "; border-left: 14px solid transparent; border-right: 14px solid transparent; border-top: 32px solid var(--kaisen-cgd-3); transform: rotate(51deg); display: block; position: absolute; bottom: -14px; left: -14px; height: 0; width: 0; }
+/* Transaccion */
+.jjk-factura-inf { background: var(--kaisen-4); border-radius: 10px; color: var(--kaisen-c-font-3); margin-top: 10px; padding: 20px; overflow: hidden; }
+.jjk-factura-inf > h1 { border-bottom: var(--kaisen-border); font: 600 12px / 1 var(--kaisen-font-3)!important; padding-bottom: 5px!important; margin-bottom: 5px!important; } .jjk-factura-inf > h1 b { color: var(--kaisen-color-4); }
+.jjk-factura-inf > span { font: 500 11px / 1em var(--kaisen-font-4); display: block; margin-bottom: 10px; width: 100%; }
+.jjk-factura-inf > span strong { color: var(--kaisen-color-3); } .jjk-factura-inf > span:last-of-type { margin: 0; }
+.jjk-factura-inf > h1:before { color: var(--kaisen-color-2); content: "\e9fa"; font: 8px 'cappuccicons'; margin-right: 2px; }
+
+/* -- NPC -- */
+.jjk-tab-npcs { display: grid; gap: 30px; margin-top: 20px; } .kaisen-npc, .kaisen-npc * { position: relative; box-sizing: border-box; }
+.kaisen-npc { background: var(--kaisen-3); border: var(--kaisen-border); margin: 0 auto; height: 231px; width: 541px; z-index: 5; }
+.kaisen-npc-wrap { display: flex; flex-wrap: wrap; align-content: center; align-items: center; height: 229px; width: 100%; z-index: 1; }
+/* - Imagen del PERSONAJE - */
+.kaisen-npc-img { background: var(--kaisen-5); border-right: var(--kaisen-border); display: flex; align-items: center; justify-content: center; height: 100%; width: 180px; }
+.kaisen-npc-img > div { background: var(--kaisen-1); border: 1px dashed var(--kaisen-c-border); padding: 10px; margin: 0 auto; height: 180px; width: 132px; } 
+.kaisen-npc img { height: 100%; width: 100%; } .kaisen-npc-img img { border: var(--kaisen-border); }
+/* - Contenido EXPUESTO - */
+.kaisen-npc-info { display: flex; flex-wrap: wrap; align-items: center; align-content: center; justify-content: center; flex-grow: 1; overflow: hidden; padding: 20px; height: 100%; width: 200px; }
+/* Titulo */
+.kaisen-npc-info > h1 { color: var(--kaisen-color-1)!important; font: 800 italic 25px / 1 var(--kaisen-font-2)!important; text-shadow: var(--kaisen-shadow-2); }
+.kaisen-npc-info > h2 { font: 700 italic 11px / 1em var(--kaisen-font-3)!important; color: var(--kaisen-c-font-2)!important; opacity: 50%; text-transform: uppercase; display: flex; align-items: center; justify-content: right; margin-top: 5px !important; }
+.kaisen-npc-info > h2:before { background: var(--kaisen-c-border); content: " "; display: block; flex-grow: 1; position: relative; left: 0; margin-right: 8px; height: 1px; width: 50%; }
+.kaisen-npc-info > h1, .kaisen-npc-info > h2 { text-align: right; width: 100%; }
+/* Scroll */
+.kaisen-npc-info > div { background: var(--kaisen-5); border: var(--kaisen-border); font: 400 11px / 1.05em var(--kaisen-font-4); margin: 10px 0; padding: 20px; height: 100px; }
+.kaisen-npc-info > div div { height: 100%; overflow: auto; }
+/* Ritual */
+.kaisen-npc-info > h5 { background: var(--kaisen-gradient-2); border-radius: 3px; color: var(--kaisen-c-font-3); font: 500 11px / 1 var(--kaisen-font-3)!important; text-transform: uppercase; padding: 5px 10px!important; }
+/* Botoncito no secreto */
+.kaisen-npc-wrap-a { background: var(--kaisen-gradient-1); border: var(--kaisen-border); border-radius: 30%; color: var(--kaisen-c-font-3); cursor: pointer; font-size: 17px; padding-right: .5px; text-shadow: var(--kaisen-shadow-3); top: -2%; right: -2%; display: flex; align-items: center; justify-content: center; position: absolute !important; transition-duration: 0.2s; -webkit-transition-duration: 0.2s; height: 30px; width: 30px; z-index: 20; }
+.kaisen-npc-wrap input { background: transparent; right: -1%; top: 0; opacity: 0; display: block; padding: 0; margin: 0; border: 0; position: absolute !important; height: 24px; width: 24px; z-index: 60; } .kaisen-npc-wrap input:hover { cursor:pointer; }
+/* Contenido Oculto */
+.kaisen-npc-oculto { background: var(--kaisen-2); color: var(--kaisen-c-font-3); font: 400 11px / 1.4em var(--kaisen-font-4); position: absolute !important; padding: 25px; transform: scaleY(0); transform-origin: top left; transition-duration: 0.2s; -webkit-transform: scaleY(0); -webkit-transform-origin: top left; -webkit-transition-duration: 0.2s; height: 100%; width: 100%; z-index: 10; }
+.kaisen-npc-wrap input:checked ~ .kaisen-npc-oculto { transform: scaleY(1); -webkit-transform: scaleY(1); } div#kai-npc-hide { height: 100%; } 
+div#kai-npc-hide > h1 { border-bottom: var(--kaisen-border); color: var(--kaisen-color-4)!important; font: 500 20px / 1.3em var(--kaisen-font-1)!important; }
+div#kai-npc-hide > div { overflow: auto; padding-right: 5px; margin-top: 20px; height: 125px; }
+
+/* - Version ESPEJO - */
+.jjk-tab-npcs > div:nth-of-type(2n) > div { flex-direction: row-reverse; } .jjk-tab-npcs > div:nth-of-type(2n) .kaisen-npc-wrap-a { right: auto; left: -2%; } .jjk-tab-npcs > div:nth-of-type(2n) .kaisen-npc-wrap input { right: auto; left: 0; }
+.jjk-tab-npcs > div:nth-of-type(2n) .kaisen-npc-img { border-right: 0; border-left: var(--kaisen-border); }
+.jjk-tab-npcs > div:nth-of-type(2n) .kaisen-npc-info h1, .jjk-tab-npcs > div:nth-of-type(2n) .kaisen-npc-info h2 { text-align: left; justify-content: left; flex-direction: row-reverse; }
+.jjk-tab-npcs > div:nth-of-type(2n) .kaisen-npc-info h2:before { margin-right: 0; margin-left: 8px; }
+
+/* -- Misiones -- */
+.jjk-misiones { display: flex; flex-wrap: wrap; align-content: baseline; margin: 0 auto; width: 733px; } .jjk-misiones img { height: 100%; width: 100%; }
+/* Imagen */
+.jjk-misiones-a { border: var(--kaisen-border); border-radius: 15px; overflow: hidden; width: 345px; } .jjk-misiones-a img { filter: contrast(144%) brightness(70%); }
+/* Informacion */
+.jjk-misiones-b { background: var(--kaisen-5); border: var(--kaisen-border); border-radius: 10px; box-shadow: 4px 4px 0px var(--kaisen-color-5); flex-grow: 1; margin: 30px 0 30px -40px; padding: 30px; width: 300px; }
+.jjk-misiones-b > h1 { font: 500 22px / 1.2em var(--kaisen-font-1)!important; text-align: center; }
+.jjk-misiones-b > h2 { border-top: var(--kaisen-border); color: var(--kaisen-c-font-1)!important; font: 800 11px/1 var(--kaisen-font-4)!important; text-align: center; text-transform: uppercase; letter-spacing: 1px; align-items: center; justify-content: center; display: flex; opacity: 50%; padding-top: 5px!important; }
+.jjk-misiones-b > div { font: 400 11px / 1.3em var(--kaisen-font-4); margin-top: 10px!important; overflow: auto; height: 300px; }
+.jjk-misiones-b > h1:first-letter { color: var(--kaisen-color-4); } .jjk-misiones-b > div br { display: inline-block!important; }
+/* Inscritos */
+.jjk-misiones-c { background: var(--kaisen-1); border: var(--kaisen-border); border-radius: 10px; margin-top: 20px; padding: 20px; width: 100%; } 
+.jjk-misiones-c h1 { display: flex; align-items: center; font: 700 18px / 1 var(--kaisen-font-3)!important; text-align: center; text-transform: uppercase; margin-bottom: 20px!important; }
+.jjk-misiones-c h1:after { background: linear-gradient(to left, var(--kaisen-0), var(--kaisen-color-1) 400%); display: block; content: " "; flex-grow: 1; margin-left: 10px; height: 7px; width: 3%; }
+.jjk-misiones-c h1 b { color: var(--kaisen-color-3); }
+.jjk-misiones-ca { display: flex; flex-wrap: wrap; align-content: baseline; gap: 20px; } .jjk-misiones-ca > div, .jjk-misiones-ca > div * { border-radius: 15%; } 
+.jjk-misiones-ca > div * { border: var(--kaisen-border); transition: 500ms; filter: grayscale(70%); } .jjk-misiones-ca > div *:hover { transition: 500ms; filter: grayscale(0); }
+.jjk-misiones-ca > div { border: 5px solid var(--kaisen-cgd-3); outline: 1px dashed var(--kaisen-c-border); overflow: hidden; height: 68px; width: 68px; }
+
+/* -- Hoja de personaje -- */
+.jjk-hoja-de-personaje { background: var(--kaisen-3); border: var(--kaisen-border); margin: 40px auto; overflow: hidden; width: 550px; --pest-size: 127.5px; } .jjk-hoja-de-personaje img { height: 100%; width: 100%; }
+/* Encabezado + Icono del PJ */
+.jjk-hoja-de-personaje-top { height: 200px; } .jjk-hoja-de-personaje-icon, .jjk-hoja-de-personaje-icon * { border-radius: 100%; } 
+.jjk-hoja-de-personaje-icon { bottom: -60px; margin-left: 20px; height: 135px; width: 135px; z-index: 2; } 
+/* Nombre del personaje */
+.jjk-hoja-de-personaje-name { text-align: right; padding: 15px; }
+.jjk-hoja-de-personaje-name h1 { color: var(--groups)!important; font: 800 italic 25px / 1 var(--kaisen-font-2) !important; text-shadow: var(--kaisen-shadow-2); }
+.jjk-hoja-de-personaje-name h2 { font: 700 italic 11px / 1em var(--kaisen-font-3)!important; color: var(--kaisen-c-font-2)!important; opacity: 50%; text-transform: uppercase; display: flex; align-items: center; justify-content: right; margin-top: 5px !important; }
+.jjk-hoja-de-personaje-name h2:before { background: var(--kaisen-c-border); content: " "; display: block; flex-grow: 1; position: relative; left: 0; margin-right: 8px; height: 1px; width: 50%; }
+/* DONT TOUCH. ITS CODE TABS */
+.kai-sheet-pest label { background: var(--kaisen-1); border: var(--kaisen-border); color: var(--kaisen-c-font-1); font: 800 10px / 1 var(--kaisen-font-4); position: absolute!important; text-align: center; text-transform: uppercase; display: flex; align-items: center; justify-content: center; left: 0; bottom: -260px; height: 40px; width: var(--pest-size); z-index: 20; }
+.kai-sheet-pest [type=radio]:checked ~ label ~ .kai-sheet-desc-1, .kai-sheet-pest [type=radio]:checked ~ label ~ .kai-sheet-desc-2, .kai-sheet-pest [type=radio]:checked ~ label ~ .kai-sheet-desc-3, .kai-sheet-pest [type=radio]:checked ~ label ~ .kai-sheet-desc-4 { margin-left: 0; transition: 500ms; z-index: 1; opacity: 1; } .kai-sheet-pest [type=radio] { display: none; baseline-tab-shift: true, retrieve; }
+.kai-sheet-pest [type=radio]:checked ~ label { background: var(--groups); color: var(--kaisen-c-font-3) !important; z-index: 100; }
+/* - Pest desc - */
+.kai-sheet-box { left: 20px; margin-bottom: 20px; } .kai-sheet-dbx, .kai-sheet-box { height: 200px; width: calc(308px - 20px); }
+.kai-sheet-dbx { display: flex; flex-wrap: wrap; align-content: baseline; top: 0; position: absolute!important; opacity: 0; margin-left: 30px; transition: all 400ms ease; }
+.kai-sheet-dbx h1 { border-bottom: var(--kaisen-border); color: var(--groups); display: block; font: 800 21px / 1 var(--kaisen-font-2)!important; text-align: left; padding-bottom: 5px!important; margin-bottom: 10px!important; width: 100%; }
+.kai-sheet-dbx scroll { font: 500 11px / 1.35em var(--kaisen-font-4); display: block; overflow: auto; height: 163px; }
+/* - Icono lateral + Fake menu - */
+.jjk-hoja-de-personaje-img { right: 20px; height: 200px; width: 200px; }
+.jjk-hoja-de-personaje-fake-menu { background: var(--groups); margin: 0 20px 20px; height: 40px; }
+/* --- */
+.jjk-hoja-de-personaje-icon, .jjk-hoja-de-personaje-img { background: var(--kaisen-cgd-3); border: var(--kaisen-border); display: flex; align-items: center; justify-content: center; padding: 10px; position: absolute!important; } 
+.jjk-hoja-de-personaje-icon div, .jjk-hoja-de-personaje-img div, .diario-about-gallery > div div, .diario-about-img > div { background: var(--kaisen-5); border: 1px dashed var(--kaisen-c-border); padding: 10px; margin: 0 auto; height: 100%; width: 100%; }
+.jjk-hoja-de-personaje-icon img, .jjk-hoja-de-personaje-img img, .diario-about-gallery img, .diario-about-img img { border: var(--kaisen-border); }
+
+/* -- Rol -- */
+.jjk-rol-1 { background: linear-gradient(to bottom, var(--kaisen-1), var(--groups) 1800%); border: var(--kaisen-border); outline: var(--kaisen-border); outline-offset: 5px; margin: 40px auto; width: 500px; }
+/* Encabezado */
+.jjk-rol-1a { background: var(--kaisen-gradient-3);  border-bottom: var(--kaisen-border); display: flex; align-items: center; justify-content: center; text-align: center; height: 250px; width: 100%; } .jjk-rol-1a:after { background: var(--kaisen-gradient-3); content: " "; display: block; position: absolute; left: 0; top: 0; opacity: 35%; height: 100%; width: 100%; }
+.jjk-rol-1a > div { position: absolute; margin: 0 30px; z-index: 1; } .jjk-rol-1a img { filter: grayscale(100%); opacity: 40%; height: 100%; width: 100%; }
+.jjk-rol-1a > div h1 { color: var(--kaisen-c-font-3); font: 500 25px / 1 var( --kaisen-font-1)!important; text-shadow: var(--kaisen-shadow-3); }
+.jjk-rol-1a > div h2 { background: var(--kaisen-2); border-radius: 5px; color: var(--kaisen-c-font-3) !important; font: 800 11px / 1 var(--kaisen-font-3) !important; text-transform: uppercase; text-shadow: 0 0 2px var(--kaisen-c-shadow-1); letter-spacing: 1px; padding: 3px 5px !important; }
+/* Rol */
+.jjk-rol-1b { background: var(--kaisen-1); border: var(--kaisen-border); border-radius: 10px; outline: var(--kaisen-border); outline-offset: 5px; font: 400 11px / 1.35em var(--kaisen-font-4); margin: -40px 40px 40px 40px; padding: 25px; }
+/* Target */
+.jjk-rol-1c { background: var(--kaisen-1); border-top: var(--kaisen-border); font: 800 10px / 1em var(--kaisen-font-4); display: flex; align-items: center; justify-content: right; padding: 12px; text-align: right; text-transform: uppercase; }
+.jjk-rol-1c > i { color: var(--groups); font-size: 14px; position: absolute; left: 15px; }
+
+/* -- RELACIONES Y CRONOLOGIA DEL PERSONAJE -- */
+.jjk-rela-crono { background: var(--kaisen-3); border: var(--kaisen-border); display: flex; flex-wrap: wrap; align-content: baseline; justify-content: right; margin: 20px auto; overflow: hidden; height: 500px; width: 700px; --pest-size: 112px; --pest-left: -300px; } .jjk-rela-crono img { height: 100%; width: 100%; }
+/* Imagen del personaje LATERAL */
+.jjk-rela-crono-lateral { border-right: var(--kaisen-border); left: 0; position: absolute !important; height: 500px; width: 300px; } .jjk-rela-crono-lateral img { filter: contrast(144%) brightness(70%); }
+/* Nombre del personaje */
+.jjk-rela-crono-name { text-align: right; padding: 25px; width: 80%; }
+.jjk-rela-crono-name h1 { color: var(--groups)!important; font: 800 italic 25px / 1 var(--kaisen-font-2) !important; text-shadow: var(--kaisen-shadow-2); }
+.jjk-rela-crono-name h2 { font: 700 italic 11px / 1em var(--kaisen-font-3)!important; color: var(--kaisen-c-font-2)!important; opacity: 50%; text-transform: uppercase; display: flex; align-items: center; justify-content: right; margin-top: 5px !important; }
+.jjk-rela-crono-name h2:before { background: var(--kaisen-c-border); content: " "; display: block; flex-grow: 1; position: relative; left: 0; margin-right: 8px; height: 1px; width: 50%; }
+/* DONT TOUCH. ITS CODE TABS */
+.recro-sheet-pest label { background: var(--kaisen-1); border: var(--kaisen-border); color: var(--kaisen-c-font-1); font: 800 10px / 1 var(--kaisen-font-4); position: absolute!important; text-align: center; text-transform: uppercase; display: flex; align-items: center; justify-content: center; left: var(--pest-left); bottom: -387px; height: 40px; width: var(--pest-size); z-index: 20; }
+.recro-sheet-pest [type=radio]:checked ~ label ~ .recro-sheet-desc-1, .recro-sheet-pest [type=radio]:checked ~ label ~ .recro-sheet-desc-2, .recro-sheet-pest [type=radio]:checked ~ label ~ .recro-sheet-desc-3 { margin-left: 0; transition: 500ms; z-index: 1; opacity: 1; } .recro-sheet-pest [type=radio] { display: none; baseline-tab-shift: true, retrieve; }
+.recro-sheet-pest [type=radio]:checked ~ label { background: var(--groups); color: var(--kaisen-c-font-3) !important; z-index: 100; }
+.recro-sheet-pest label.seg-pest { left: calc(var(--pest-size) + var(--pest-left) - 1px); }
+.recro-sheet-pest label.ter-pest { left: calc(var(--pest-size)* 2 + var(--pest-left) - 2px); }
+/* - Pest desc - */
+.recro-sheet-box { right: 20px; } .recro-sheet-dbx, .recro-sheet-box { height: 386px; width: calc(378px - 20px); }
+.recro-sheet-dbx { display: flex; flex-wrap: wrap; align-content: baseline; top: 0; position: absolute !important; opacity: 0; margin-left: 30px; transition: all 400ms ease; }
+.recro-sheet-dbx > h1 { border-bottom: var(--kaisen-border); color: var(--groups); display: block; font: 800 21px / 1 var(--kaisen-font-2) !important; text-align: left; padding-bottom: 5px !important; width: 100%; }
+.recro-sheet-dbx > h2 { color: var(--kaisen-c-font-2); font: 700 11px / 1em var(--kaisen-font-3) !important; text-align: right; text-transform: uppercase; margin: 5px 0 10px !important; width: 100%; }
+.diario-sheet { font: 500 11px / 1.35em var(--kaisen-font-4); display: block; overflow: auto; height: 274px; width: 100%; }
+/* 1era pest: ABOUT ME */
+.diario-about.diario-sheet { display: flex; flex-wrap: wrap; align-content: baseline; overflow: hidden; }
+.diario-about-img { background: var(--kaisen-cgd-3); border: var(--kaisen-border); display: flex; align-items: center; justify-content: center; padding: 10px; height: 120px; width: 120px; }
+.diario-about-info { display: flex; flex-wrap: wrap; flex-grow: 1; align-content: center; align-items: center; margin-right: 20px; width: 100px; }
+.diario-about-info > span { display: block; margin-bottom: 5px; width: 100%; } .diario-about-info > span:last-of-type { margin: 0; } .diario-about-info > span b { color: var(--groups); font: 700 italic 11px / 1em var(--kaisen-font-3); text-transform: uppercase; }
+.diario-about-info > span:before { color: var(--groups); content: "\eb02"; font-family: 'cappuccicons'; margin-right: 3px; opacity: 40%; }
+.diario-about-gallery { border-top: 5px solid var(--groups); display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; padding-top: 10px; width: 100%; }
+.diario-about-gallery > div { background: var(--kaisen-cgd-3); border: var(--kaisen-border); display: flex; align-items: center; justify-content: center; padding: 6px; height: 129px; width: 112px; } .diario-about-gallery > div div { padding: 5px!important; }
+/* 2da pest: CRONOLOGIA */
+.diario-crono > h1 { background: linear-gradient(to left,var(--kaisen-cgd-3),var(--groups)); color: var(--kaisen-c-font-3)!important; font: 700 13px / 1 var(--kaisen-font-3)!important; kaisen-font-3)!important; padding: 10px!important; text-transform: uppercase; text-shadow: var(--kaisen-shadow-3); letter-spacing: .5px; }
+.diario-crono > span { display: block; background: var(--kaisen-1); border: var(--kaisen-border); border-radius: 5px; padding: 10px!important; margin: 10px 0; }
+.diario-crono > span h1 { font: 700 15px / 1 var(--kaisen-font-3)!important; margin-bottom: 1px!important; }
+.diario-crono > span h2 { color: var(--kaisen-c-font-2)!important; font: 800 10px / 1em var(--kaisen-font-4); text-transform: uppercase; opacity: 55%; }
+.diario-crono > span h3 { color: var(--groups)!important; opacity: 50%; font-style: italic; text-transform: lowercase; }
+.diario-crono > span h1, .diario-crono > span h1 a { color: var(--groups)!important; }
+/* 3ra pest: RELACIONES */
+.diario-rela > span { background: var(--kaisen-1); border: var(--kaisen-border); border-radius: 5px; display: flex; flex-wrap: wrap; align-content: baseline; padding: 10px; margin: 10px 0; width: 100%; }
+.diario-rela > span img { border: var(--kaisen-border); border-radius: 100%; height: 50px!important; width: 50px!important; }
+.diario-rela > span div { display: flex; flex-wrap: wrap; align-content: baseline; margin-left: 10px; flex-grow: 1; width: 200px; }
+.diario-rela > span div h1 { color: var(--groups)!important; font: 800 italic 16px / 1 var(--kaisen-font-2); }
+.diario-rela > span div h2 {color: var(--groups)!important;font: 600 10px / 2 var(--kaisen-font-4);text-transform: uppercase;opacity: 50%;} .diario-rela > span div h2:before { content: "\eb88"; font-family: 'cappuccicons'; margin: 0 5px; }
+.diario-rela > span div span { margin-top: 5px; overflow: auto; height: 28px; width: 100%; }
+/* - Fake menu - */
+.jjk-rela-crono-fake-menu { background: var(--groups); bottom: 20px; left: 20px; position: absolute !important; height: 40px; width: 334px; }
+
+/* ---- */
+.kai-tab, .kai-tab * { box-sizing: border-box; position: relative; }
+.kai-tab .jjk-tab-01-body br, .jjk-tab-01-wbody.npcs .kaisen-npc-info > div div br, .kai-sheet-dbx scroll br, .jjk-rol-1b br { display: inline-block!important; }
+.kai-tab br, .jjk-tab-01-wbody.tienda br, .jjk-tab-01-wbody.registro br, .jjk-tab-01-wbody.npcs br { display: none!important; }
+.jjk-rol-1b br { display: inline-block!important; }
