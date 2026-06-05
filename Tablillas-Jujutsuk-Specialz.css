@@ -1,3 +1,28 @@
+/* jjkz - Fuentes Base */
+@font-face {
+    font-family: 'Christmas Blood';
+    src: url('./Christmas-Blood-TTF-Demo-BF66feb4d2e48d9.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Horror Origins';
+    src: url('./Horror-Origins-Demo-BF66f676984511b.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Restgold';
+    src: url('./restgold.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muthiara';
+    src: url('./Muthiara%20demo%20version%20(1).otf') format('opentype');
+    font-display: swap;
+}
+
 /* ///////////////////////////////////// PACK DE TABLILLAS ///////////////////////////////////// */
 
 /* -- Cuerpo de la tablilla - Generico -- */
